@@ -910,34 +910,19 @@ img {
   background-image: url(../images/hero-bg.jpg);
 }
 
-/* Common styles for all screen sizes */
-/* ... */
-
-/* Styles for screen width >= 428px */
 @media screen and (min-width: 428px) {
-  /* Styles specific to this screen width range */
-  /* ... */
 }
 
-/* Styles for screen width >= 768px */
-@media screen and (min-width: 768px) {
-  /* Styles specific to this screen width range */
-  /* ... */
+@media screen and (min-width: 428px) and (max-width: 768px) {
 }
 
-/* Styles for screen width >= 1158px */
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+}
+
 @media screen and (min-width: 1158px) {
-  /* Styles specific to this screen width range */
-  /* ... */
 }
 
-/* Styles needed only in a certain range */
-@media screen and (min-width: 320px) {
-  /* Styles specific to this screen width range */
-  /* ... */
-}
-
-/* Other media queries as needed */
+/* The rest of your CSS... */
 
 /* Styles for mobile navigation */
 .mobile-menu-icon {

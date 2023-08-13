@@ -910,34 +910,38 @@ img {
   background-image: url(../images/hero-bg.jpg);
 }
 
-/* Common styles for all screen sizes */
-/* ... */
-
-/* Styles for screen width >= 428px */
 @media screen and (min-width: 428px) {
-  /* Styles specific to this screen width range */
-  /* ... */
 }
 
-/* Styles for screen width >= 768px */
-@media screen and (min-width: 768px) {
-  /* Styles specific to this screen width range */
-  /* ... */
+@media screen and (min-width: 428px) and (max-width: 768px) {
 }
 
-/* Styles for screen width >= 1158px */
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+}
+
 @media screen and (min-width: 1158px) {
-  /* Styles specific to this screen width range */
-  /* ... */
 }
 
-/* Styles needed only in a certain range */
-@media screen and (min-width: 320px) {
-  /* Styles specific to this screen width range */
-  /* ... */
+/* Styles for mobile navigation */
+.mobile-menu-icon {
+  display: none; /* Hide on larger screens */
+  cursor: pointer;
 }
 
-/* Other media queries as needed */
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: var(--navyblue); /* Use your color variable */
+  margin: 6px 0;
+}
+
+/* Media query for screens below a certain width (e.g., 768px) */
+@media screen and (max-width: 768px) {
+  .header-navigation {
+    display: none; /* Hide regular navigation on mobile */
+  }
+
+  /* The rest of your CSS... */
 
 /* Styles for mobile navigation */
 .mobile-menu-icon {
