@@ -262,6 +262,9 @@ img {
   color: var(--ocean);
 }
 
+.mobile-menu-list {
+}
+
 .contact-link {
   color: var(--slate, #434455);
   font-weight: 400;
@@ -324,15 +327,16 @@ img {
   gap: 56px;
   margin-top: 8px;
   margin-bottom: 0;
-
-  @media screen and (max-width: 427px) {
-    gap: 40px;
-  }
 }
 
 .mobile-social-item {
   width: 40px;
   height: 40px;
+
+  @media screen and (max-width: 427px) {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .mobile-social-link {
@@ -545,6 +549,11 @@ img {
 .team-social-item {
   width: 40px;
   height: 40px;
+
+  @media screen and (max-width: 427px) {
+    width: 36px;
+    height: 36px;
+  }
 }
 
 .team-social-link {

@@ -196,7 +196,7 @@ img {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 40px 35px 40px 40px;
+  padding: 40px;
   background-color: var(--white);
   z-index: 200;
 
@@ -262,6 +262,9 @@ img {
   color: var(--ocean);
 }
 
+.mobile-menu-list {
+}
+
 .contact-link {
   color: var(--slate, #434455);
   font-weight: 400;
@@ -284,16 +287,12 @@ img {
 .tel {
   font-family: inherit;
   font-size: 36px;
+  font-style: normal;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
 
   @media screen and (max-width: 427px) {
-    font-family: inherit;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 40px;
-    letter-spacing: 0.72px;
   }
 }
 
@@ -324,10 +323,6 @@ img {
   gap: 56px;
   margin-top: 8px;
   margin-bottom: 0;
-
-  @media screen and (max-width: 427px) {
-    gap: 40px;
-  }
 }
 
 .mobile-social-item {
@@ -536,10 +531,6 @@ img {
   justify-content: center;
   gap: 24px;
   padding-bottom: 32px;
-
-  @media screen and (max-width: 427px) {
-    gap: 16px;
-  }
 }
 
 .team-social-item {
@@ -574,11 +565,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 72px 16px;
-
-  @media screen and (max-width: 427px) {
-    gap: 50px;
-    justify-content: center;
-  }
 }
 
 .customers-wrap {

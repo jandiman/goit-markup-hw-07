@@ -262,6 +262,9 @@ img {
   color: var(--ocean);
 }
 
+.mobile-menu-list {
+}
+
 .contact-link {
   color: var(--slate, #434455);
   font-weight: 400;

@@ -262,6 +262,9 @@ img {
   color: var(--ocean);
 }
 
+.mobile-menu-list {
+}
+
 .contact-link {
   color: var(--slate, #434455);
   font-weight: 400;
@@ -333,6 +336,11 @@ img {
 .mobile-social-item {
   width: 40px;
   height: 40px;
+
+  @media screen and (max-width: 427px) {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .mobile-social-link {

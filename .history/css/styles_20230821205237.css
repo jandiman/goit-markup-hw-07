@@ -262,6 +262,9 @@ img {
   color: var(--ocean);
 }
 
+.mobile-menu-list {
+}
+
 .contact-link {
   color: var(--slate, #434455);
   font-weight: 400;
@@ -324,10 +327,6 @@ img {
   gap: 56px;
   margin-top: 8px;
   margin-bottom: 0;
-
-  @media screen and (max-width: 427px) {
-    gap: 40px;
-  }
 }
 
 .mobile-social-item {
@@ -545,6 +544,11 @@ img {
 .team-social-item {
   width: 40px;
   height: 40px;
+
+  @media screen and (max-width: 427px) {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .team-social-link {
@@ -577,7 +581,6 @@ img {
 
   @media screen and (max-width: 427px) {
     gap: 50px;
-    justify-content: center;
   }
 }
 
